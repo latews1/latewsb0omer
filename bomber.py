@@ -24,15 +24,15 @@ while 1:
     system("cls||clear")
     print("""{}
   
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-▀                ▀
-▀ LATEWS B00MBER ▀
-▀                ▀
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀     
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+▀                  ▀
+▀ LATOSHIN B00MBER ▀
+▀                  ▀
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    
 
     SMS API: {}                                      
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.CYAN))
-    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"LATEWS B00MBER "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"latews#1000\n"+Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"LATOSHIN B00MBER "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"latoshin#1000\n"+Style.RESET_ALL)
     try:
         menu = int(input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
     except ValueError:
