@@ -24,15 +24,15 @@ while 1:
     system("cls||clear")
     print("""{}
   
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-▀                  ▀
-▀ LATOSHIN B00MBER ▀
-▀                  ▀
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀    
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+▀                ▀
+▀ LATEWS BOOMBER ▀
+▀                ▀
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
     SMS API: {}                                      
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.CYAN))
-    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"LATOSHIN B00MBER "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"latoshin#1000\n"+Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"LATEWS B00MBER "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"latews#1000\n"+Style.RESET_ALL)
     try:
         menu = int(input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
     except ValueError:
@@ -86,12 +86,12 @@ while 1:
                                     tel_no5 = "bos"
                 except FileNotFoundError:
                     system("cls||clear")
-                    print(Fore.LIGHTRED_EX + "Dosya bulunamadı. Tekrar deneyiniz.")
+                    print(Fore.LIGHTRED_EX + "Dosya bulunamadi. Tekrar deneyiniz.")
                     sleep(3)
                     continue
                 except ValueError:
                     system("cls||clear")
-                    print(Fore.LIGHTRED_EX + "Hatalı telefon numarası. Tekrar deneyiniz.")
+                    print(Fore.LIGHTRED_EX + "Hatali telefon numarasi. Tekrar deneyiniz.")
                     sleep(3)
                     continue
             else:
@@ -99,7 +99,7 @@ while 1:
                   raise ValueError
         except ValueError:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı telefon numarası. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatali telefon numarasi. Tekrar deneyiniz.") 
             sleep(3)
             continue
         system("cls||clear")
@@ -110,13 +110,13 @@ while 1:
                 raise
         except:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı mail adresi. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatali mail adresi. Tekrar deneyiniz.") 
             sleep(3)
             continue
         system("cls||clear")
         try:
-            print(Fore.LIGHTGREEN_EX+"[+] "+Fore.CYAN+"Birden çok numara varsa her bir numara için.")
-            print(Fore.LIGHTYELLOW_EX + "Gönderilecek sms adeti (sonsuz ise 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")  
+            print(Fore.LIGHTGREEN_EX+"[+] "+Fore.CYAN+"Birden cok numara varsa her bir numara icin.")
+            print(Fore.LIGHTYELLOW_EX + "Gonderilecek sms adeti (sonsuz ise 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")  
             kere = input()
             if kere:
                 kere = int(kere)
@@ -124,7 +124,7 @@ while 1:
                 kere = None
         except ValueError:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı giriş yaptınız. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatali giris yaptiniz. Tekrar deneyiniz.") 
             sleep(3)
             continue
 
@@ -134,7 +134,7 @@ while 1:
             aralik = int(input())
         except ValueError:
             system("cls||clear")
-            print(Fore.LIGHTRED_EX + "Hatalı giriş yaptınız. Tekrar deneyiniz.") 
+            print(Fore.LIGHTRED_EX + "Hatali giris yaptiniz. Tekrar deneyiniz.") 
             sleep(3)
             continue
         system("cls||clear")
@@ -153,7 +153,7 @@ while 1:
                                       break
                                   exec("sms."+attribute+"()")
                                   sleep(aralik)
-                  print(Fore.LIGHTRED_EX + "\nMenüye dönmek için 'enter' tuşuna bas..")
+                  print(Fore.LIGHTRED_EX + "\nMenuye donmek icin 'enter' tuşuna bas..")
                   input()
         elif kere is None: 
                   while True:
@@ -165,5 +165,5 @@ while 1:
                                sleep(aralik)
     elif menu == 2:
         system("cls||clear")
-        print(Fore.LIGHTRED_EX + "Çıkış yapıo...")
+        print(Fore.LIGHTRED_EX + "Cikis yapiliyor...")
         break
